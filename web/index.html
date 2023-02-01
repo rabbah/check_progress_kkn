@@ -68,7 +68,7 @@
             const password = $("#password").val()
 
 
-            $.post("https://faas-sgp1-18bc02ac.doserverless.co/api/v1/web/fn-bb218a42-b80a-49bd-af04-8dbcd59fed91/simaster/progress_kkn", {
+            $.post("/api/simaster/progress_kkn", {
                 username: username,
                 password: password
             }).done(data => {
