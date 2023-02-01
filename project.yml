@@ -12,7 +12,6 @@ packages:
         main: ""
         runtime: python:default
         web: true
-        websecure: false
         parameters: {}
         environment: {}
         annotations: {}
